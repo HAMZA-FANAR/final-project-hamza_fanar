@@ -12066,6 +12066,7 @@ nav {
 
 .section7-div1 {
   text-align: center;
+  padding-top: 50px;
 }
 
 .inpts-1 {
@@ -12091,6 +12092,19 @@ nav {
   padding: 10px 50px;
   background-color: orange;
   border-radius: 30px;
+}
+
+.section8-div1 {
+  padding-inline: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.section8-div1 img {
+  width: 24%;
+}
+.section8-div1 img:hover {
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=app.css.map */
