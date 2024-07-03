@@ -11848,7 +11848,7 @@ textarea.form-control-lg {
 nav {
   height: 12vh;
   display: flex;
-  background-color: #3c3937;
+  background-color: transparent;
   opacity: 0.7;
   justify-content: space-around;
   align-items: center;
@@ -11913,6 +11913,58 @@ nav {
   #chec:checked ~ .btn {
     display: none;
   }
+}
+.section1-div1 {
+  width: 80vw;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.section1-div1 h1, .section1-div1 .h1 {
+  color: white;
+}
+.section1-div1 h1::before, .section1-div1 .h1::before {
+  content: "Delicous ";
+  color: #ffa012;
+}
+.section1-div1 p {
+  color: white;
+}
+
+.section1-div2 {
+  width: 80vw;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.section1-div2 h1, .section1-div2 .h1 {
+  color: white;
+}
+.section1-div2 p {
+  color: white;
+}
+
+.btn2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.button2 {
+  background-color: transparent;
+  border: 3px solid orange;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 40px;
+}
+.button2:hover {
+  background-color: #ffa012;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
