@@ -11985,6 +11985,10 @@ nav {
   color: orange;
 }
 
+.section3 {
+  padding: 50px;
+}
+
 .section3-div1 {
   padding: 50px;
   text-align: center;
@@ -11995,6 +11999,7 @@ nav {
 }
 
 .section3-div2 {
+  height: 300px;
   padding-inline: 30px;
   display: flex;
   gap: 40px;
@@ -12005,12 +12010,46 @@ nav {
   padding-inline: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.section3-mini1 h1, .section3-mini1 .h1 {
+  color: orange;
+}
 .section3-mini1:hover {
   background-color: orange;
   color: white;
   padding-top: 20px;
   padding-bottom: 30px;
-  transition: 1s;
+  transition: 0.5s;
+}
+.section3-mini1:hover h1, .section3-mini1:hover .h1 {
+  color: white;
+}
+
+.section6 {
+  background-image: url(../images/events-bg.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.section6-mini2 {
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.section6-minii2 {
+  color: white;
+  padding-top: 90px;
+}
+
+.section6-df {
+  display: flex;
+  gap: 20px;
+}
+
+.center {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
