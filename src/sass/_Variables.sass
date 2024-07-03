@@ -1,2 +1,13 @@
 @import ../../node_modules/bootstrap/scss/functions
 @import ../../node_modules/bootstrap/scss/variables
+
+
+$spacer1: 100px
+$spacer3: 200px
+$spacer2: 150px
+
+
+
+$my-spacers: ("6":$spacer1 , "7":$spacer2 , "8":$spacer3 )
+
+$spacers: map-merge($my-spacers , $spacers)
