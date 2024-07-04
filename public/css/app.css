@@ -13375,4 +13375,40 @@ nav {
   margin-inline: auto;
 }
 
+footer {
+  background-color: #35322d;
+  color: #fff;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.footer-div1 {
+  text-align: center;
+}
+.footer-div1 h1, .footer-div1 .h1 {
+  color: orange;
+}
+
+.footer-div2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footer-div2 i {
+  padding: 5px 10px;
+  background-color: #6a5e4a;
+  border-radius: 50%;
+}
+.footer-div2 i:hover {
+  background-color: orange;
+}
+
+.footer-div3 {
+  padding-top: 50px;
+  text-align: center;
+}
+.footer-div3 p {
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=app.css.map */
