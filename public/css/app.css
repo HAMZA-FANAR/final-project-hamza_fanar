@@ -13309,10 +13309,10 @@ h3, .h3 {
   }
   .section6-mini2 {
     flex-direction: column;
-    padding: 10px;
-  }
-  .section6-minii1 {
     padding: 0;
+  }
+  .section6-minii2 {
+    padding-inline: 20px;
   }
 }
 .section7 {
@@ -13407,6 +13407,10 @@ h3, .h3 {
 
 .section10-width2 {
   width: 150px;
+}
+
+.cl {
+  color: #f5a938;
 }
 
 .sec-bg1 {
