@@ -13563,4 +13563,57 @@ footer {
   font-size: 12px;
 }
 
+.section5-div1 {
+  padding: 50px;
+  text-align: center;
+}
+.section5-div1 h1, .section5-div1 .h1 {
+  font-family: satisfy;
+}
+
+.mini1-div1 {
+  width: 40%;
+}
+
+.section5-dflex {
+  display: flex;
+  gap: 150px;
+}
+
+.sec5-ped {
+  padding-bottom: 100px;
+}
+
+.big5 {
+  padding-inline: 100px;
+}
+
+.big5-bt {
+  width: 40%;
+  padding-right: 50px;
+}
+
+.mini2-div1 {
+  width: 30%;
+}
+
+@media (max-width: 428px) {
+  .big5 {
+    flex-direction: column;
+  }
+  .big5-bt {
+    width: 100%;
+  }
+  .section5-dflex {
+    flex-direction: column;
+  }
+  .mini2-div1 {
+    width: 100%;
+  }
+  .mini1-div1 {
+    width: 100%;
+    padding-top: 100px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
