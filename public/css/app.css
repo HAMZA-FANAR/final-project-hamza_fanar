@@ -1,10 +1,14 @@
 @charset "UTF-8";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+  font-family: satisfy;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -13039,7 +13043,7 @@ textarea.form-control-lg {
 nav {
   height: 12vh;
   display: flex;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
   opacity: 0.7;
   justify-content: space-around;
   align-items: center;
@@ -13047,6 +13051,9 @@ nav {
 
 .nav-div1 {
   color: white;
+}
+.nav-div1 h1, .nav-div1 .h1 {
+  font-family: satisfy;
 }
 
 .nav-div2 {
@@ -13085,14 +13092,14 @@ nav {
     align-items: start;
     padding-left: 50px;
     padding-top: 50px;
-    background-color: cadetblue;
+    background-color: rgb(0, 0, 0);
     width: 99vw;
     height: 100vh;
     position: fixed;
     display: none;
     z-index: 999;
     transition: 1s;
-    top: 12%;
+    top: 10%;
     left: 0;
   }
   #chec:checked ~ .nav-div2 {
@@ -13115,6 +13122,7 @@ nav {
 }
 .section1-div1 h1, .section1-div1 .h1 {
   color: white;
+  font-family: satisfy;
 }
 .section1-div1 h1::before, .section1-div1 .h1::before {
   content: "Delicous ";
@@ -13134,6 +13142,7 @@ nav {
 }
 .section1-div2 h1, .section1-div2 .h1 {
   color: white;
+  font-family: satisfy;
 }
 .section1-div2 p {
   color: white;
@@ -13158,6 +13167,14 @@ nav {
   color: white;
 }
 
+@media (max-width: 428px) {
+  .size {
+    height: 500px;
+  }
+  .button2 {
+    padding: 5px 30px;
+  }
+}
 .section2 {
   padding-top: 50px;
   display: flex;
@@ -13165,6 +13182,9 @@ nav {
   background-color: #fffaf3;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.section2 h1, .section2 .h1 {
+  font-family: satisfy;
 }
 
 .section2-mini {
@@ -13180,9 +13200,23 @@ nav {
   .section2 {
     flex-direction: column;
   }
+  video {
+    width: 100%;
+  }
+  .section2-div1 {
+    padding-inline: 20px;
+  }
 }
 .section3 {
   padding: 50px;
+}
+
+h1, .h1 {
+  font-family: satisfy;
+}
+
+h3, .h3 {
+  font-family: satisfy;
 }
 
 .section3-div1 {
@@ -13220,16 +13254,37 @@ nav {
   color: white;
 }
 
+@media (max-width: 428px) {
+  .section3-div2 {
+    flex-direction: column;
+    height: 800px;
+  }
+  .section3-mini1 {
+    width: 100%;
+  }
+}
 .section6 {
   background-image: url(../images/events-bg.jpg);
-  background-size: cover;
   background-position: right;
+  background-attachment: fixed;
+}
+
+.center2 h1, .center2 .h1 {
+  padding-top: 20px;
+  font-family: satisfy;
+  text-align: center;
+  color: #fff;
 }
 
 .section6-mini2 {
   padding: 50px;
   display: flex;
   gap: 50px;
+}
+
+.bor {
+  border-bottom: 3px solid orange;
+  width: 50px;
 }
 
 .section6-minii2 {
@@ -13248,6 +13303,18 @@ nav {
   color: white;
 }
 
+@media (max-width: 428px) {
+  .section6 {
+    padding-block: 100px;
+  }
+  .section6-mini2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .section6-minii1 {
+    padding: 0;
+  }
+}
 .section7 {
   padding-top: 50px;
 }
@@ -13263,6 +13330,9 @@ nav {
 .section7-div1 {
   text-align: center;
   padding-top: 50px;
+}
+.section7-div1 h1, .section7-div1 .h1 {
+  font-family: satisfy;
 }
 
 .inpts-1 {
@@ -13280,7 +13350,7 @@ nav {
 .inpts2 {
   padding-top: 30px;
 }
-.inpts2 input:focus {
+.inpts2 textarea:focus {
   border: 3px solid blue;
 }
 
@@ -13290,17 +13360,45 @@ nav {
   border-radius: 30px;
 }
 
+@media (max-width: 428px) {
+  .inpts2 textarea {
+    width: 300px;
+  }
+  .inpts-1 {
+    flex-direction: column;
+  }
+  .inpts-1 input {
+    width: 300px;
+  }
+}
+.zoom {
+  width: 24%;
+  overflow: hidden;
+}
+.zoom img {
+  transition: 1s;
+}
+.zoom img:hover {
+  transform: scale(1.5);
+}
+
 .section8-div1 {
-  padding-inline: 40px;
+  padding-inline: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
-.section8-div1 img {
-  width: 24%;
+
+@media (max-width: 428px) {
+  .section8-div1 {
+    flex-direction: column;
+  }
+  .zoom {
+    width: 100%;
+  }
 }
-.section8-div1 img:hover {
-  transform: scale(1.02);
+.font h1, .font .h1 {
+  font-family: satisfy;
 }
 
 .section10-width {
@@ -13319,6 +13417,11 @@ nav {
   background-size: cover;
 }
 
+@media (max-width: 428px) {
+  .sec-bg1 {
+    padding-block: 50px;
+  }
+}
 .section11 {
   padding-block: 50px;
 }
@@ -13359,6 +13462,7 @@ nav {
 }
 .df i {
   padding: 15px;
+  height: 50px;
   background-color: orange;
   border-radius: 50%;
 }
@@ -13375,6 +13479,17 @@ nav {
   margin-inline: auto;
 }
 
+@media (max-width: 428px) {
+  .section12-div1 {
+    flex-direction: column;
+  }
+  .inpts-3 input {
+    width: 300px;
+  }
+  .inpts-4 input {
+    width: 300px;
+  }
+}
 footer {
   background-color: #35322d;
   color: #fff;
@@ -13387,6 +13502,7 @@ footer {
 }
 .footer-div1 h1, .footer-div1 .h1 {
   color: orange;
+  font-family: satisfy;
 }
 
 .footer-div2 {

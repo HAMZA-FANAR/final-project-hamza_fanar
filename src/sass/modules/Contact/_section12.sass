@@ -33,9 +33,12 @@
 
 .df
     display: flex
+    
     gap: 10px
     i
+
         padding: 15px
+        height: 50px
         background-color: orange
         border-radius: 50%
         &:hover
@@ -50,4 +53,19 @@
     padding: 30px
     width: 90%
     margin-inline:  auto 
+
+
+@media   ( max-width: 428px  )
+
+    .section12-div1
+        flex-direction: column
+
+    .inpts-3
+        input
+            width: 300px
+
+    .inpts-4
+        input
+            width: 300px
+    
     

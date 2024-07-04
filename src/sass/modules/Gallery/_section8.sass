@@ -1,10 +1,28 @@
+.zoom
+    width: 24%
+    overflow: hidden
+    img
+        transition: 1s
+        
+        &:hover
+             transform: scale(1.5)
+    
+    
 .section8-div1
-    padding-inline: 40px
+    padding-inline: 30px
     display: flex
     flex-wrap: wrap
     gap: 5px
+
+
+@media   ( max-width: 428px  )
+    .section8-div1
+        flex-direction: column
+
+
+    .zoom
+        width: 100%
     
-    img
-        width: 24%
-        &:hover
-             transform: scale(1.02)
+    
+    
+  

@@ -12,6 +12,8 @@
 .section7-div1
     text-align: center
     padding-top: 50px
+    h1
+        font-family: satisfy
 
 .inpts-1
     display: flex
@@ -25,7 +27,9 @@
 
 .inpts2
     padding-top: 30px
-    input
+    
+        
+    textarea
         &:focus
          border: 3px solid blue
 
@@ -33,5 +37,19 @@
     padding: 10px 50px
     background-color: orange
     border-radius: 30px
+
+
+
+@media  ( max-width: 428px )
+
+    .inpts2
+        textarea
+            width: 300px
+
+    .inpts-1
+        flex-direction: column
+        input
+            width: 300px
+    
     
       
