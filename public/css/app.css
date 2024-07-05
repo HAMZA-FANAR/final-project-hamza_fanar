@@ -13703,7 +13703,7 @@ footer {
     gap: 5px;
   }
   .center2 {
-    flex-direction: column;
+    padding-left: 10px;
   }
   .sec4-pad {
     padding-inline: 20px;
