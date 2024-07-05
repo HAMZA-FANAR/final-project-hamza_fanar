@@ -13374,6 +13374,9 @@ h3, .h3 {
 .inpts2 {
   padding-top: 30px;
 }
+.inpts2 textarea {
+  width: 50vw;
+}
 .inpts2 textarea:focus {
   border: 3px solid blue;
 }
