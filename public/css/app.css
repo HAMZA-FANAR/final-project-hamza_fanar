@@ -13375,7 +13375,7 @@ h3, .h3 {
   padding-top: 30px;
 }
 .inpts2 textarea {
-  width: 50vw;
+  width: 82vw;
 }
 .inpts2 textarea:focus {
   border: 3px solid blue;
@@ -13388,9 +13388,6 @@ h3, .h3 {
 }
 
 @media (max-width: 428px) {
-  .inpts2 textarea {
-    width: 300px;
-  }
   .inpts-1 {
     flex-direction: column;
   }
@@ -13572,6 +13569,9 @@ h3, .h3 {
     width: 300px;
   }
   .inpts-4 input {
+    width: 300px;
+  }
+  .inpts2 textarea {
     width: 300px;
   }
 }
