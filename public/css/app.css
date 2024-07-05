@@ -13453,6 +13453,18 @@ h3, .h3 {
   opacity: 0.5;
 }
 
+@media (max-width: 428px) {
+  .chefs-dis {
+    flex-direction: column;
+    gap: 150px;
+  }
+  .chefs-dis div {
+    text-align: center;
+  }
+  .section9 {
+    height: 250vh;
+  }
+}
 .section10-width {
   width: 80px;
 }
@@ -13631,6 +13643,16 @@ footer {
   width: 30%;
 }
 
+.nav5-color {
+  width: 100%;
+}
+.nav5-color button:focus {
+  color: orange;
+}
+.nav5-color a:focus {
+  color: orange;
+}
+
 @media (max-width: 428px) {
   .big5 {
     flex-direction: column;
@@ -13657,7 +13679,7 @@ footer {
 }
 
 .center2 {
-  padding-inline: 37%;
+  padding-left: 35%;
   padding-top: 50px;
 }
 
@@ -13676,6 +13698,9 @@ footer {
   .section4-mini1 {
     flex-direction: column;
     gap: 5px;
+  }
+  .center2 {
+    flex-direction: column;
   }
   .sec4-pad {
     padding-inline: 20px;
