@@ -36,6 +36,11 @@ nav
 .checbtn
     display: none
 
+.nav-div3
+    display: flex
+    align-items: center
+    gap: 20px
+
 
 @media (max-width : 428px)
     
@@ -66,14 +71,14 @@ nav
      
 
 
-    #chec:checked ~ .nav-div2
+    #chec:checked ~ .nav-div3 > .nav-div2
         display: flex
     
 
     #chec:checked ~ .nav-div1 
         display: none
     
-    #chec:checked ~ .btn
+    #chec:checked ~ .nav-div3 > .btn
         display: none
  
 
